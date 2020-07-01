@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    color: dimgray;
+}
+.name{
+    color:#ec4c7a;
+}
+.half-width{
+    width: 42%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 130px;
+}
+.link-button{
+    text-decoration: none;
+    background-color:#ec4f91;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.my-work{
+    text-align: center;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row{
+    content: "";
+    display: flex;
+}
+.clint-say{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer p{
+    text-align: center;
+}
